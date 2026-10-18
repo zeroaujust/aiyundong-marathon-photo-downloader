@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 下载输出的照片和总览（体积大，不进仓库）
+马拉松照片_*/
+output/
+test_output/
+*.jpg
+*.png
+!docs/**/*.png
+
+# 系统和编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
