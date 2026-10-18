@@ -4,6 +4,8 @@
 
 适用平台：**爱云动 / 悦动拍（runnerbar）**——微信小程序「爱云动」及其 H5 站 `m.yundong.runnerbar.com`。国内绝大多数马拉松、越野跑、骑行赛的照片都收录在这个平台。
 
+> **关于仓库名**：GitHub 仓库名只支持 ASCII 字符（字母/数字/`-`/`_`/`.`），不支持中文，因此本仓库的英文名为 `aiyundong-marathon-photo-downloader`，中文项目名「Wechat小程序-DY科技-马拉松水印照片批量下载工具」作为仓库标题和描述展示。
+
 ---
 
 ## 目录
@@ -54,8 +56,8 @@
 
 ```bash
 # 1. 下载本项目
-git clone https://github.com/<你的用户名>/Wechat小程序-DY科技-马拉松水印照片批量下载工具.git
-cd Wechat小程序-DY科技-马拉松水印照片批量下载工具
+git clone https://github.com/zeroaujust/aiyundong-marathon-photo-downloader.git
+cd aiyundong-marathon-photo-downloader
 
 # 2.（可选）安装 Pillow，用于生成缩略图总览和深度校验
 pip install Pillow
